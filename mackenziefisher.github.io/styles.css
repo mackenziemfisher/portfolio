@@ -1,0 +1,36 @@
+/*body font*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*nav bar design*/
+.nav-bar-wrapper {
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid transparent;
+}
+
+.left-side-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.right-side-wrapper{
+    margin-right: 20px;
+}
+
+.nav-bar-wrapper>.left-side-wrapper>div{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+/*hovering */
+.left-side-wrapper a{
+  color: blueviolet;
+  transition: color 0.5s;
+
+}
+
+.left-side-wrapper a:hover {
+    color: crimson;
+}
+
+
